@@ -6,4 +6,4 @@ deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
-  bucket: "www.kunalkukreja.com"
+  bucket: "arn:aws:s3:::www.kunalkukreja.com"
