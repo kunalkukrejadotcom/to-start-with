@@ -1,5 +1,4 @@
 language: node_js
-before_deploy: "echo 'ready?'"
 install: skip
 script:
   return 0
@@ -7,4 +6,4 @@ deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
-  bucket: "kunal76765437"
+  bucket: "www.kunalkukreja.com"
